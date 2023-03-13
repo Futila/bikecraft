@@ -43,3 +43,7 @@
   height: 4px;
   background-color: currentColor;
 }
+
+.link:hover {
+  color: var(--cor-0);
+}
