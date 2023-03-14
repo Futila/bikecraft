@@ -57,7 +57,7 @@
   left: -21px;
 }
 
-.seguros-item li + li .seguros-item a {
+.seguros-item a {
   grid-column: 1/-1;
 }
 
