@@ -30,4 +30,8 @@
   .vantagens h2 {
     padding-bottom: 40px;
   }
+
+  .vantagens ul {
+    gap: 20px;
+  }
 }
