@@ -26,7 +26,7 @@
 }
 
 .orcamento-produto,
-.orcamento-dados{
+.orcamento-dados {
   padding: 60px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -37,35 +37,54 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: start;
-  gap:20px;
+  gap: 20px;
 }
-
 
 .orcamento-produto > * {
   grid-column: 1/-1;
-
 }
 .orcamento-produto > label {
   grid-column: initial;
-
 }
-
 
 .orcamento-produto label {
+  font: 400 1rem/1.5 "Poppins", sans-serif;
   color: var(--cor-4);
   background-color: var(--cor-10);
+  padding: 12px 16px;
+  border-radius: 4px;
   display: block;
+  cursor: pointer;
 }
-.orcamento-dados{
+
+.orcamento-produto input:checked + label {
+  background: var(--cor-0);
+  color: var(--cor-11);
+}
+
+.orcamento-produto label::before {
+  content: "";
+  display: inline-block;
+  box-sizing: border-box;
+  width: 12px;
+  height: 12px;
+  border-radius: 1px solid var(--cor-6);
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.orcamento-produto input {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.orcamento-dados {
   border-radius: 0 5px 5px 0;
   background: var(--cor-0);
 }
 
-
-
-
-
-#bikcraft:checked ~ #orcamento-bikcraft, 
+#bikcraft:checked ~ #orcamento-bikcraft,
 #seguro:checked ~ #orcamento-seguro {
   display: block;
-} 
+}
