@@ -67,3 +67,8 @@ function enventosGaleria(img) {
 }
 
 galeria.forEach(enventosGaleria);
+
+//Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
