@@ -9,9 +9,9 @@
 <br>
 
 <p align="center">
-  <img alt="Home" src="./img/bikcraft.svg" width="100%">
-  <img alt="Bikes" src="./img/bikcraft.svg" width="100%">
-  <img alt="Seguros" src="./img/bikcraft.svg" width="100%">
+  <img alt="Bikes" src="https://github.com/Futila/bikecraft/blob/master/.github/home.png" width="100%">
+  <img alt="Home" src="https://github.com/Futila/bikecraft/blob/master/.github/bikes.png" width="100%">
+  <img alt="Seguros" src="https://github.com/Futila/bikecraft/blob/master/.github/seguros.png" width="100%">
 </p>
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
